@@ -8,8 +8,8 @@ This project is a simple React web application that showcases an Apple product. 
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Customization](#customization)
 - [Contributing](#contributing)
@@ -35,8 +35,8 @@ Before running the project, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/apple-product-showcase.git
-   cd apple-product-showcase
+   git clone https://github.com/Rimshakhan13/apple-frontend-task
+   cd apple-frontend-task
 
 1. Install dependencies:
 npm install
