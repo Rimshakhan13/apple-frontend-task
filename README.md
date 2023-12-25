@@ -2,7 +2,7 @@
 
 # Apple Product Showcase
 
-This project is a simple React web application that showcases an Apple product. It fetches product data from a mock API (replace with your actual API endpoint) and displays it on the web page.
+This React web application showcases an Apple product, dynamically fetching product data from a mock API (replace with your actual API endpoint). The project includes various features to enhance the user experience and allows for easy customization.
 
 ## Table of Contents
 
@@ -12,6 +12,7 @@ This project is a simple React web application that showcases an Apple product. 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Customization](#customization)
+- [Additional Features](#additional-features)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -21,6 +22,8 @@ This project is a simple React web application that showcases an Apple product. 
 - **Responsive Design:** Built with a responsive design to ensure a seamless experience across different devices.
 - **Custom React Hook:** Utilizes a custom hook (`useProductData`) to handle the API call logic.
 - **Styling:** Includes basic styling for a clean and visually appealing user interface.
+- **Navigation Menu:** Provides a navigation menu for easy access to different sections.
+- **Smooth Scrolling:** Implements smooth scrolling using React Router for seamless navigation.
 
 ## Getting Started
 
@@ -29,8 +32,6 @@ This project is a simple React web application that showcases an Apple product. 
 Before running the project, ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (>=10.16.0)
-
-### Installation
 
 1. Clone the repository:
 
