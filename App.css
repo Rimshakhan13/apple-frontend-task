@@ -1,35 +1,29 @@
 /* src/App.css */
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* ... Existing styles ... */
 
-header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-}
-
-.product-showcase {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2em;
-}
-
-.product-info {
-  max-width: 600px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+.slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .slider img {
+    width: 100%;
+    scroll-snap-align: start;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+  }
+  
+  .product-info button.interactive-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .product-info button.interactive-button:hover {
+    background-color: #0056b3;
+  }
+  

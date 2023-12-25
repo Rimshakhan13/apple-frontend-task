@@ -1,6 +1,7 @@
 // src/App.js
 import React from 'react';
 import useProductData from './hooks/useProductData';
+import ImageSlider from './components/ImageSlider';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <h1>{product.name}</h1>
       </header>
       <section className="product-showcase">
+        <ImageSlider images={product.images} />
         <div className="product-info">
           <h2>{product.name}</h2>
           <p>{product.description}</p>
@@ -22,6 +24,7 @@ function App() {
               <li key={index}>{spec}</li>
             ))}
           </ul>
+          <button className="interactive-button">Buy Now</button>
         </div>
       </section>
       <footer>
